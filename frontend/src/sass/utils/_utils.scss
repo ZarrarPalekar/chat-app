@@ -1,0 +1,52 @@
+.card {
+  width: 575px;
+  padding: 40px 40px;
+  background-color: #709e13;
+  box-shadow: 0px 8px 25px #f5f0f0;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.form-group {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.form-control {
+  padding: 20px;
+  border: none;
+  outline: none;
+  background-color: #0a0e1585;
+  &::placeholder {
+    color: #fff;
+    font-weight: 400;
+  }
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 10px 0;
+}
+label {
+  margin-bottom: 5px;
+  color: #fff;
+  font-weight: 500;
+}
+.btn {
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 12px;
+  text-align: center;
+  background-color: #101a23eb;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
